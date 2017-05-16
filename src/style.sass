@@ -1,0 +1,24 @@
+$font-path: "./assets/fonts" !default;
+$glyph-ico: 'glyphicons-halflings-regular';
+
+@import "../style.css"
+@import "../normalize.css"
+@import "../sanitize.css"
+@import "./assets/style/bootstrap.min.css"
+@font-face
+  src: url('#{$font-path}/#{$glyph-ico}.eot');
+  src: url('#{$font-path}/#{$glyph-ico}.woff2');
+  src: url('#{$font-path}/#{$glyph-ico}.woff');
+  src: url('#{$font-path}/#{$glyph-ico}.ttf');
+  src: url('#{$font-path}/#{$glyph-ico}.svg');
+
+
+#app
+  height: 100%;
+  width: 100%;
+  line-height: 50em;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
